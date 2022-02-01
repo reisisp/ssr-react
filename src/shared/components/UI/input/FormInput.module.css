@@ -1,0 +1,11 @@
+.customInput {
+    min-width: 570px;
+    padding: 5px 15px;
+    margin: 5px 0;
+    border: 2px solid #76a0ee;
+    border-radius: 8px;
+}
+.customInput:focus,
+.customInput:hover {
+    border: 2px solid #005bff;
+}

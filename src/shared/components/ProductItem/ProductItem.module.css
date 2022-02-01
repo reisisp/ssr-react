@@ -1,0 +1,46 @@
+.card {
+    display: inline-block;
+    max-width: 238px;
+    margin: 15px 20px;
+    background: #fff;
+    box-shadow: 0 4px 16px 2px rgb(0 26 52 / 16%);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card__title {
+    font-size: 24px;
+    font-weight: 300;
+    color: #212121;
+    word-wrap: break-word;
+}
+
+.card__price {
+    font-size: 16px;
+    color: #f91155;
+    word-wrap: break-word;
+}
+
+.card__content {
+    padding: 8px 12px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-rows: repeat(2, max-content);
+    grid-row-gap: 8px;
+    align-items: center;
+    justify-items: center;
+}
+
+.card__img {
+    padding: 12px;
+}
+
+.img {
+    max-height: 250px;
+    min-height: 200px;
+}

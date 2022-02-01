@@ -1,0 +1,9 @@
+.search {
+    margin: 0 0 0 16px;
+    border: 2px solid #005bff;
+    border-radius: 12px;
+    box-sizing: border-box;
+    height: 100%;
+    min-width: 600px;
+    max-width: 900px;
+}
