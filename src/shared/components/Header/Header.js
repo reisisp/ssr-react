@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "../Navbar/Navbar";
 import { Searchbar } from "../Searchbar/Searchbar";
-import cl from './header.module.css'
+import cl from './Header.module.css'
 
 export const Header = ({ search }) => {
 

@@ -4,7 +4,7 @@ import config from 'config';
 import fetch from 'isomorphic-fetch';
 import { matchPath } from 'react-router-dom';
 import productsRouter from './routes/api/products.routes';
-import { htmlTmp } from './template/htmltmp';
+import { htmlTmp } from './template/htmltmp.js';
 import routes from './routes/visible/routes';
 
 
